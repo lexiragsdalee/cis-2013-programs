@@ -36,6 +36,7 @@ var generate = function ()
             intCount--; 
         }
     }
+    $("output").value = stringOutput; //send value to HTML
 }
 
 
